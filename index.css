@@ -9,14 +9,28 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0,0.6);
+    display: table;
+    margin-top: 100px;
 }
 section h1{
     text-align: center;
 }
 
 section img {
-    width: 60%;
+    width: 100%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0,0.6);
+}
+
+div#dados{
+    width: 60%;
+    font-size: 17px;
+}
+
+div#foto{
+    width: 40%;
+    text-align: right;
+    float:right;
+    font-size: 11px;
 }
 
 footer {
